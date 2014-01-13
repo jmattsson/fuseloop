@@ -1,5 +1,7 @@
 /* fuseloop.c - loopback via fuse
  *
+ * See the LICENSE.txt file for license details.
+ *
  * Mainly intended to allow creating of virtual disk images by giving
  * specific offset/size access so that mke2fs can be run on less than the
  * entire file.
