@@ -22,6 +22,7 @@ Example:
     +100M
     w
     EOF
+    sectorsize=512
     
     # Use fdisk to give us the correct offset and size values to use with fuseloop
     fdisk -c -u -l -C 300 -H 64 -S 32 -b 512 mydisk.img | grep mydisk.img | grep Linux | while read line
